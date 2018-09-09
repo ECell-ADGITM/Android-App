@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="in.ecelladgitm.activities.MainActivity"
+        android:label="main_activity"
+        tools:layout="@layout/main_activity" />
+    <fragment
+        android:id="@+id/postsFragment2"
+        android:name="in.ecelladgitm.fragments.PostsFragment"
+        android:label="posts_fragment"
+        tools:layout="@layout/posts_fragment" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="in.ecelladgitm.fragments.GalleryFragment"
+        android:label="gallery_fragment"
+        tools:layout="@layout/gallery_fragment" ></fragment>
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="in.ecelladgitm.fragments.EventsFragment"
+        android:label="events_fragment"
+        tools:layout="@layout/events_fragment" />
+    <fragment
+        android:id="@+id/newsAndUpdatesFragment"
+        android:name="in.ecelladgitm.fragments.NewsAndUpdatesFragment"
+        android:label="news_and_updates_fragment"
+        tools:layout="@layout/news_and_updates_fragment" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="in.ecelladgitm.fragments.AboutUsFragment"
+        android:label="about_us_fragment"
+        tools:layout="@layout/about_us_fragment" />
+</navigation>

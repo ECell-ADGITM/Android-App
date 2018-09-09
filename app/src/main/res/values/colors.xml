@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--default theme colors-->
+    <color name="colorPrimary">#ff5722</color>
+    <color name="colorPrimaryDark">#e64a19</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="text_color_primary">#ffffff</color>
+    <color name="primary_text_material_dark">#000000</color>
+    <color name="background">@color/orange</color>
+    <color name="color_background">#ffffff</color>
+
+    <!--black theme colors-->
+    <color name="colorPrimary_black">#181818</color>
+    <color name="colorPrimaryDark_black">#000000</color>
+    <color name="colorAccent_black">@color/red</color>
+    <color name="text_color_primary_black">#ffffff</color>
+    <color name="primary_text_material_dark_black">#000000</color>
+    <color name="background_black">#363636</color>
+    <color name="color_background_black">#727272</color>
+
+    <!--white theme colors-->
+    <color name="colorPrimary_white">#ffffff</color>
+    <color name="colorPrimaryDark_white">#dddddd</color>
+    <color name="colorAccent_white">#000000</color>
+    <color name="text_color_primary_white">#bb000000</color>
+    <color name="primary_text_material_dark_white">#ffffff</color>
+    <color name="color_background_white">#aaaaaa</color>
+    <color name="background_white">#ffffff</color>
+
+
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="teal">#009688</color>
+    <color name="green">#4caf50</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#26c6da</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#03a9f4</color>
+    <color name="red">#f44336</color>
+    <color name="purple">#ab47bc</color>
+    <color name="white">#ffffff</color>
+
+
+
+    <integer-array name="androidcolors">
+        <item>@color/teal</item>
+        <item>@color/green</item>
+        <item>@color/cyan</item>
+        <item>@color/blue</item>
+        <item>@color/red</item>
+        <item>@color/purple</item>
+
+    </integer-array>
+
+    <color name="splash_background_colour">#ffffff</color>
+
+</resources>
